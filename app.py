@@ -152,7 +152,11 @@ def sfig(fig, h=350, title=""):
 
 
 _NORM = mcolors.Normalize(0, 100)
-_CMAP = cm.get_cmap("YlOrRd")
+try:                                  # matplotlib >= 3.6 (Streamlit Cloud)
+    import matplotlib as _mpl
+    _CMAP = _mpl.colormaps["YlOrRd"]
+except Exception:                     # older matplotlib fallback
+    _CMAP = cm.get_cmap("YlOrRd")
 def cis_rgb(v):
     r, g, b, _ = _CMAP(_NORM(v)); return [int(r * 255), int(g * 255), int(b * 255)]
 
