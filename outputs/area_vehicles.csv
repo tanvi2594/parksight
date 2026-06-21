@@ -1,0 +1,1107 @@
+area,vehicle_type,n
+AT Extension,BUS (BMTC/KSRTC),8
+AT Extension,CAR,940
+AT Extension,GOODS AUTO,37
+AT Extension,HGV,3
+AT Extension,JEEP,10
+AT Extension,LGV,66
+AT Extension,LORRY/GOODS VEHICLE,2
+AT Extension,MAXI-CAB,142
+AT Extension,MINI LORRY,2
+AT Extension,MOPED,10
+AT Extension,MOTOR CYCLE,204
+AT Extension,OTHERS,7
+AT Extension,PASSENGER AUTO,417
+AT Extension,PRIVATE BUS,85
+AT Extension,SCOOTER,430
+AT Extension,TEMPO,11
+AT Extension,TOURIST BUS,18
+AT Extension,VAN,18
+Ajmera Annex,CAR,81
+Ajmera Annex,GOODS AUTO,1
+Ajmera Annex,HGV,1
+Ajmera Annex,LGV,24
+Ajmera Annex,MAXI-CAB,8
+Ajmera Annex,MOTOR CYCLE,288
+Ajmera Annex,PASSENGER AUTO,16
+Ajmera Annex,SCOOTER,374
+Ajmera Annex,TANKER,7
+Ajmera Annex,VAN,5
+Anand Rao Circle,CAR,202
+Anand Rao Circle,GOODS AUTO,21
+Anand Rao Circle,JEEP,4
+Anand Rao Circle,LGV,43
+Anand Rao Circle,MAXI-CAB,22
+Anand Rao Circle,MOPED,7
+Anand Rao Circle,MOTOR CYCLE,109
+Anand Rao Circle,OTHERS,10
+Anand Rao Circle,PASSENGER AUTO,412
+Anand Rao Circle,PRIVATE BUS,39
+Anand Rao Circle,SCOOTER,248
+Anand Rao Circle,TEMPO,2
+Anand Rao Circle,TOURIST BUS,3
+Anand Rao Circle,VAN,6
+Ashwath Nagar,BUS (BMTC/KSRTC),13
+Ashwath Nagar,CAR,150
+Ashwath Nagar,GOODS AUTO,8
+Ashwath Nagar,JEEP,1
+Ashwath Nagar,LGV,26
+Ashwath Nagar,LORRY/GOODS VEHICLE,1
+Ashwath Nagar,MAXI-CAB,12
+Ashwath Nagar,MOPED,22
+Ashwath Nagar,MOTOR CYCLE,221
+Ashwath Nagar,OTHERS,6
+Ashwath Nagar,PASSENGER AUTO,59
+Ashwath Nagar,SCOOTER,259
+Ashwath Nagar,TEMPO,4
+Ashwath Nagar,TRACTOR,1
+Ashwath Nagar,VAN,6
+Begur Chikkanahalli,CAR,2843
+Begur Chikkanahalli,FACTORY BUS,1
+Begur Chikkanahalli,HGV,2
+Begur Chikkanahalli,JEEP,3
+Begur Chikkanahalli,LGV,18
+Begur Chikkanahalli,MAXI-CAB,1205
+Begur Chikkanahalli,MOTOR CYCLE,4
+Begur Chikkanahalli,PASSENGER AUTO,1
+Begur Chikkanahalli,SCOOTER,11
+Begur Chikkanahalli,TEMPO,8
+Begur Chikkanahalli,TOURIST BUS,1
+Begur Chikkanahalli,VAN,9
+Bescom Employees House Building Cooperative Society,CAR,302
+Bescom Employees House Building Cooperative Society,FACTORY BUS,1
+Bescom Employees House Building Cooperative Society,GOODS AUTO,10
+Bescom Employees House Building Cooperative Society,JEEP,7
+Bescom Employees House Building Cooperative Society,LGV,16
+Bescom Employees House Building Cooperative Society,MAXI-CAB,14
+Bescom Employees House Building Cooperative Society,MOPED,3
+Bescom Employees House Building Cooperative Society,MOTOR CYCLE,128
+Bescom Employees House Building Cooperative Society,PASSENGER AUTO,56
+Bescom Employees House Building Cooperative Society,SCOOTER,323
+Bescom Employees House Building Cooperative Society,TRACTOR,2
+Block C,CAR,26
+Block C,GOODS AUTO,4
+Block C,LGV,3
+Block C,MAXI-CAB,2
+Block C,MOPED,14
+Block C,MOTOR CYCLE,147
+Block C,PASSENGER AUTO,39
+Block C,SCHOOL VEHICLE,5
+Block C,SCOOTER,542
+Block C,TEMPO,1
+Block C,VAN,2
+Brigade Tech Gardens,CAR,93
+Brigade Tech Gardens,JEEP,1
+Brigade Tech Gardens,LGV,19
+Brigade Tech Gardens,MAXI-CAB,331
+Brigade Tech Gardens,MOTOR CYCLE,125
+Brigade Tech Gardens,PASSENGER AUTO,164
+Brigade Tech Gardens,SCHOOL VEHICLE,1
+Brigade Tech Gardens,SCOOTER,144
+Brigade Tech Gardens,TRACTOR,1
+Brigade Tech Gardens,VAN,3
+Chanda Nagar,CAR,242
+Chanda Nagar,GOODS AUTO,38
+Chanda Nagar,HGV,13
+Chanda Nagar,LGV,157
+Chanda Nagar,LORRY/GOODS VEHICLE,4
+Chanda Nagar,MAXI-CAB,14
+Chanda Nagar,MOPED,1
+Chanda Nagar,MOTOR CYCLE,28
+Chanda Nagar,PASSENGER AUTO,144
+Chanda Nagar,SCOOTER,168
+Chanda Nagar,TEMPO,6
+Chanda Nagar,VAN,37
+Chickpet Circle,CAR,42
+Chickpet Circle,GOODS AUTO,37
+Chickpet Circle,HGV,1
+Chickpet Circle,JEEP,1
+Chickpet Circle,LGV,121
+Chickpet Circle,LORRY/GOODS VEHICLE,4
+Chickpet Circle,MAXI-CAB,2
+Chickpet Circle,MINI LORRY,1
+Chickpet Circle,MOPED,5
+Chickpet Circle,MOTOR CYCLE,286
+Chickpet Circle,PASSENGER AUTO,393
+Chickpet Circle,SCOOTER,669
+Chickpet Circle,TEMPO,1
+Chickpet Circle,VAN,2
+City Market Circle,CAR,746
+City Market Circle,GOODS AUTO,86
+City Market Circle,HGV,1
+City Market Circle,JEEP,4
+City Market Circle,LGV,247
+City Market Circle,LORRY/GOODS VEHICLE,5
+City Market Circle,MAXI-CAB,25
+City Market Circle,MOPED,15
+City Market Circle,MOTOR CYCLE,488
+City Market Circle,OTHERS,1
+City Market Circle,PASSENGER AUTO,1583
+City Market Circle,PRIVATE BUS,2
+City Market Circle,SCOOTER,2368
+City Market Circle,TEMPO,6
+City Market Circle,TOURIST BUS,1
+City Market Circle,VAN,55
+Coffee Board Junction,CAR,48
+Coffee Board Junction,JEEP,3
+Coffee Board Junction,LGV,3
+Coffee Board Junction,MAXI-CAB,6
+Coffee Board Junction,MOPED,2
+Coffee Board Junction,MOTOR CYCLE,229
+Coffee Board Junction,PASSENGER AUTO,31
+Coffee Board Junction,SCHOOL VEHICLE,1
+Coffee Board Junction,SCOOTER,669
+Coffee Board Junction,TOURIST BUS,2
+Devasandra Junction,BUS (BMTC/KSRTC),10
+Devasandra Junction,CAR,771
+Devasandra Junction,GOODS AUTO,70
+Devasandra Junction,HGV,5
+Devasandra Junction,JEEP,8
+Devasandra Junction,LGV,162
+Devasandra Junction,MAXI-CAB,18
+Devasandra Junction,MINI LORRY,2
+Devasandra Junction,MOPED,8
+Devasandra Junction,MOTOR CYCLE,333
+Devasandra Junction,OTHERS,16
+Devasandra Junction,PASSENGER AUTO,887
+Devasandra Junction,SCOOTER,963
+Devasandra Junction,TANKER,1
+Devasandra Junction,TEMPO,47
+Devasandra Junction,TOURIST BUS,3
+Devasandra Junction,VAN,68
+Dodpete,CAR,259
+Dodpete,GOODS AUTO,40
+Dodpete,HGV,1
+Dodpete,JEEP,4
+Dodpete,LGV,115
+Dodpete,MAXI-CAB,3
+Dodpete,MOPED,1
+Dodpete,MOTOR CYCLE,55
+Dodpete,OTHERS,1
+Dodpete,PASSENGER AUTO,126
+Dodpete,PRIVATE BUS,12
+Dodpete,SCHOOL VEHICLE,2
+Dodpete,SCOOTER,226
+Dodpete,TEMPO,1
+Dodpete,TOURIST BUS,1
+Dodpete,VAN,25
+Embassy Tech Village,CAR,259
+Embassy Tech Village,HGV,2
+Embassy Tech Village,JEEP,11
+Embassy Tech Village,LGV,4
+Embassy Tech Village,MAXI-CAB,38
+Embassy Tech Village,MOPED,61
+Embassy Tech Village,MOTOR CYCLE,742
+Embassy Tech Village,OTHERS,4
+Embassy Tech Village,PASSENGER AUTO,39
+Embassy Tech Village,PRIVATE BUS,11
+Embassy Tech Village,SCOOTER,1311
+Embassy Tech Village,TEMPO,1
+Embassy Tech Village,TOURIST BUS,8
+Fortuna Acacia,CAR,144
+Fortuna Acacia,JEEP,1
+Fortuna Acacia,LGV,1
+Fortuna Acacia,MOPED,1
+Fortuna Acacia,MOTOR CYCLE,585
+Fortuna Acacia,PASSENGER AUTO,8
+Fortuna Acacia,SCOOTER,1262
+Fortuna Acacia,TEMPO,1
+Fortuna Acacia,VAN,1
+Fortune Acacia,CAR,288
+Fortune Acacia,LGV,5
+Fortune Acacia,LORRY/GOODS VEHICLE,2
+Fortune Acacia,MAXI-CAB,2
+Fortune Acacia,MOPED,1
+Fortune Acacia,MOTOR CYCLE,547
+Fortune Acacia,PASSENGER AUTO,24
+Fortune Acacia,SCOOTER,1117
+Fortune Acacia,TEMPO,1
+Fortune Acacia,VAN,3
+Gandhi Bazar Circle,CAR,111
+Gandhi Bazar Circle,GOODS AUTO,2
+Gandhi Bazar Circle,LGV,12
+Gandhi Bazar Circle,LORRY/GOODS VEHICLE,2
+Gandhi Bazar Circle,MAXI-CAB,1
+Gandhi Bazar Circle,MOPED,3
+Gandhi Bazar Circle,MOTOR CYCLE,100
+Gandhi Bazar Circle,OTHERS,1
+Gandhi Bazar Circle,PASSENGER AUTO,107
+Gandhi Bazar Circle,SCOOTER,339
+Gandhi Bazar Circle,VAN,1
+HSR Layout,CAR,339
+HSR Layout,GOODS AUTO,5
+HSR Layout,JEEP,2
+HSR Layout,LGV,8
+HSR Layout,MAXI-CAB,8
+HSR Layout,MOPED,60
+HSR Layout,MOTOR CYCLE,298
+HSR Layout,OTHERS,5
+HSR Layout,PASSENGER AUTO,15
+HSR Layout,PRIVATE BUS,2
+HSR Layout,SCOOTER,400
+HSR Layout,VAN,1
+Indiranagar,CAR,258
+Indiranagar,GOODS AUTO,3
+Indiranagar,LGV,3
+Indiranagar,MAXI-CAB,10
+Indiranagar,MOTOR CYCLE,245
+Indiranagar,OTHERS,2
+Indiranagar,PASSENGER AUTO,38
+Indiranagar,SCOOTER,311
+Indiranagar,VAN,2
+Jakkarayana Kere,CAR,1832
+Jakkarayana Kere,GOODS AUTO,29
+Jakkarayana Kere,HGV,5
+Jakkarayana Kere,JEEP,29
+Jakkarayana Kere,LGV,87
+Jakkarayana Kere,LORRY/GOODS VEHICLE,1
+Jakkarayana Kere,MAXI-CAB,113
+Jakkarayana Kere,MINI LORRY,1
+Jakkarayana Kere,MOPED,12
+Jakkarayana Kere,MOTOR CYCLE,69
+Jakkarayana Kere,OTHERS,16
+Jakkarayana Kere,PASSENGER AUTO,134
+Jakkarayana Kere,PRIVATE BUS,35
+Jakkarayana Kere,SCHOOL VEHICLE,1
+Jakkarayana Kere,SCOOTER,215
+Jakkarayana Kere,TANKER,1
+Jakkarayana Kere,TEMPO,6
+Jakkarayana Kere,TOURIST BUS,2
+Jakkarayana Kere,VAN,17
+Jayanagar,CAR,408
+Jayanagar,GOODS AUTO,1
+Jayanagar,HGV,1
+Jayanagar,JEEP,7
+Jayanagar,LGV,5
+Jayanagar,MAXI-CAB,3
+Jayanagar,MINI LORRY,1
+Jayanagar,MOPED,2
+Jayanagar,MOTOR CYCLE,76
+Jayanagar,PASSENGER AUTO,18
+Jayanagar,SCHOOL VEHICLE,1
+Jayanagar,SCOOTER,259
+Jayanagar,TANKER,1
+Jayanagar,TEMPO,3
+Jayanagar,VAN,4
+Kadubisanahalli Junction,BUS (BMTC/KSRTC),52
+Kadubisanahalli Junction,CAR,734
+Kadubisanahalli Junction,GOODS AUTO,5
+Kadubisanahalli Junction,HGV,2
+Kadubisanahalli Junction,LGV,12
+Kadubisanahalli Junction,MAXI-CAB,7
+Kadubisanahalli Junction,MOPED,3
+Kadubisanahalli Junction,MOTOR CYCLE,24
+Kadubisanahalli Junction,OTHERS,1
+Kadubisanahalli Junction,PASSENGER AUTO,212
+Kadubisanahalli Junction,PRIVATE BUS,6
+Kadubisanahalli Junction,SCHOOL VEHICLE,1
+Kadubisanahalli Junction,SCOOTER,21
+Kadubisanahalli Junction,TANKER,2
+Kadubisanahalli Junction,TEMPO,35
+Kadubisanahalli Junction,TOURIST BUS,5
+Kadubisanahalli Junction,VAN,6
+Kalasipalyam,CAR,190
+Kalasipalyam,GOODS AUTO,165
+Kalasipalyam,HGV,10
+Kalasipalyam,JEEP,7
+Kalasipalyam,LGV,180
+Kalasipalyam,LORRY/GOODS VEHICLE,27
+Kalasipalyam,MAXI-CAB,5
+Kalasipalyam,MINI LORRY,19
+Kalasipalyam,MOPED,13
+Kalasipalyam,MOTOR CYCLE,94
+Kalasipalyam,OTHERS,1
+Kalasipalyam,PASSENGER AUTO,257
+Kalasipalyam,PRIVATE BUS,53
+Kalasipalyam,SCOOTER,365
+Kalasipalyam,TANKER,1
+Kalasipalyam,TEMPO,2
+Kalasipalyam,TOURIST BUS,14
+Kalasipalyam,VAN,10
+Kalpana Circle,CAR,9
+Kalpana Circle,LGV,2
+Kalpana Circle,LORRY/GOODS VEHICLE,1
+Kalpana Circle,MAXI-CAB,1
+Kalpana Circle,MOTOR CYCLE,148
+Kalpana Circle,PASSENGER AUTO,6
+Kalpana Circle,SCOOTER,830
+Kempe Gowda Circle,CAR,1835
+Kempe Gowda Circle,GOODS AUTO,21
+Kempe Gowda Circle,HGV,2
+Kempe Gowda Circle,JEEP,22
+Kempe Gowda Circle,LGV,64
+Kempe Gowda Circle,LORRY/GOODS VEHICLE,2
+Kempe Gowda Circle,MAXI-CAB,111
+Kempe Gowda Circle,MINI LORRY,1
+Kempe Gowda Circle,MOPED,98
+Kempe Gowda Circle,MOTOR CYCLE,783
+Kempe Gowda Circle,OTHERS,13
+Kempe Gowda Circle,PASSENGER AUTO,527
+Kempe Gowda Circle,PRIVATE BUS,15
+Kempe Gowda Circle,SCHOOL VEHICLE,1
+Kempe Gowda Circle,SCOOTER,2850
+Kempe Gowda Circle,TANKER,1
+Kempe Gowda Circle,TEMPO,4
+Kempe Gowda Circle,TOURIST BUS,2
+Kempe Gowda Circle,TRACTOR,1
+Kempe Gowda Circle,VAN,27
+Kempegowda Extension,CAR,493
+Kempegowda Extension,GOODS AUTO,49
+Kempegowda Extension,HGV,6
+Kempegowda Extension,JEEP,9
+Kempegowda Extension,LGV,129
+Kempegowda Extension,LORRY/GOODS VEHICLE,3
+Kempegowda Extension,MAXI-CAB,29
+Kempegowda Extension,MINI LORRY,1
+Kempegowda Extension,MOPED,152
+Kempegowda Extension,MOTOR CYCLE,606
+Kempegowda Extension,OTHERS,10
+Kempegowda Extension,PASSENGER AUTO,173
+Kempegowda Extension,SCHOOL VEHICLE,1
+Kempegowda Extension,SCOOTER,2066
+Kempegowda Extension,TEMPO,4
+Kempegowda Extension,TRACTOR,1
+Kempegowda Extension,VAN,7
+Kempegowda Maharaja Complex,CAR,310
+Kempegowda Maharaja Complex,GOODS AUTO,12
+Kempegowda Maharaja Complex,HGV,2
+Kempegowda Maharaja Complex,JEEP,8
+Kempegowda Maharaja Complex,LGV,59
+Kempegowda Maharaja Complex,LORRY/GOODS VEHICLE,1
+Kempegowda Maharaja Complex,MAXI-CAB,9
+Kempegowda Maharaja Complex,MOPED,27
+Kempegowda Maharaja Complex,MOTOR CYCLE,146
+Kempegowda Maharaja Complex,OTHERS,7
+Kempegowda Maharaja Complex,PASSENGER AUTO,86
+Kempegowda Maharaja Complex,SCOOTER,351
+Kempegowda Maharaja Complex,TEMPO,1
+Kempegowda Maharaja Complex,VAN,4
+Kirloskar Foundry,BUS (BMTC/KSRTC),2
+Kirloskar Foundry,CAR,551
+Kirloskar Foundry,GOODS AUTO,8
+Kirloskar Foundry,HGV,1
+Kirloskar Foundry,JEEP,7
+Kirloskar Foundry,LGV,8
+Kirloskar Foundry,LORRY/GOODS VEHICLE,2
+Kirloskar Foundry,MAXI-CAB,97
+Kirloskar Foundry,MINI LORRY,2
+Kirloskar Foundry,MOTOR CYCLE,44
+Kirloskar Foundry,OTHERS,2
+Kirloskar Foundry,PASSENGER AUTO,246
+Kirloskar Foundry,PRIVATE BUS,5
+Kirloskar Foundry,SCOOTER,92
+Kirloskar Foundry,TANKER,35
+Kirloskar Foundry,TEMPO,3
+Kirloskar Foundry,TOURIST BUS,4
+Kirloskar Foundry,VAN,4
+Koramangala,CAR,599
+Koramangala,FACTORY BUS,1
+Koramangala,GOODS AUTO,19
+Koramangala,HGV,1
+Koramangala,JEEP,4
+Koramangala,LGV,21
+Koramangala,LORRY/GOODS VEHICLE,9
+Koramangala,MAXI-CAB,37
+Koramangala,MINI LORRY,16
+Koramangala,MOPED,6
+Koramangala,MOTOR CYCLE,177
+Koramangala,OTHERS,6
+Koramangala,PASSENGER AUTO,100
+Koramangala,PRIVATE BUS,36
+Koramangala,SCOOTER,368
+Koramangala,TANKER,2
+Koramangala,TEMPO,4
+Koramangala,TOURIST BUS,6
+Koramangala,VAN,6
+Kotturu,BUS (BMTC/KSRTC),10
+Kotturu,CAR,280
+Kotturu,GOODS AUTO,4
+Kotturu,HGV,1
+Kotturu,LGV,5
+Kotturu,LORRY/GOODS VEHICLE,3
+Kotturu,MAXI-CAB,21
+Kotturu,MOPED,2
+Kotturu,MOTOR CYCLE,26
+Kotturu,PASSENGER AUTO,420
+Kotturu,PRIVATE BUS,15
+Kotturu,SCHOOL VEHICLE,2
+Kotturu,SCOOTER,43
+Kotturu,TEMPO,3
+Kotturu,TOURIST BUS,2
+Kotturu,TRACTOR,1
+Kumar Park,CAR,36
+Kumar Park,JEEP,1
+Kumar Park,MAXI-CAB,1
+Kumar Park,MOTOR CYCLE,119
+Kumar Park,OTHERS,1
+Kumar Park,PASSENGER AUTO,3
+Kumar Park,SCOOTER,545
+Kumar Park,VAN,1
+Maharani College Junction,CAR,556
+Maharani College Junction,GOODS AUTO,56
+Maharani College Junction,HGV,20
+Maharani College Junction,JEEP,11
+Maharani College Junction,LGV,98
+Maharani College Junction,LORRY/GOODS VEHICLE,2
+Maharani College Junction,MAXI-CAB,93
+Maharani College Junction,MINI LORRY,1
+Maharani College Junction,MOPED,6
+Maharani College Junction,MOTOR CYCLE,52
+Maharani College Junction,OTHERS,13
+Maharani College Junction,PASSENGER AUTO,199
+Maharani College Junction,PRIVATE BUS,42
+Maharani College Junction,SCOOTER,97
+Maharani College Junction,TEMPO,14
+Maharani College Junction,TOURIST BUS,1
+Maharani College Junction,VAN,15
+Majestic Circle,CAR,58
+Majestic Circle,GOODS AUTO,2
+Majestic Circle,LGV,4
+Majestic Circle,LORRY/GOODS VEHICLE,1
+Majestic Circle,MAXI-CAB,5
+Majestic Circle,MOTOR CYCLE,19
+Majestic Circle,PASSENGER AUTO,1129
+Majestic Circle,SCOOTER,53
+Majestic Circle,TEMPO,4
+Majestic Circle,TOURIST BUS,1
+Majestic Circle,VAN,2
+Malleshwara Extension,CAR,445
+Malleshwara Extension,GOODS AUTO,2
+Malleshwara Extension,JEEP,5
+Malleshwara Extension,LGV,2
+Malleshwara Extension,LORRY/GOODS VEHICLE,1
+Malleshwara Extension,MAXI-CAB,12
+Malleshwara Extension,MOTOR CYCLE,258
+Malleshwara Extension,OTHERS,2
+Malleshwara Extension,PASSENGER AUTO,64
+Malleshwara Extension,SCOOTER,284
+Malleshwara Extension,VAN,1
+Malleshwaram West,BUS (BMTC/KSRTC),2
+Malleshwaram West,CAR,688
+Malleshwaram West,GOODS AUTO,7
+Malleshwaram West,JEEP,8
+Malleshwaram West,LGV,6
+Malleshwaram West,LORRY/GOODS VEHICLE,1
+Malleshwaram West,MAXI-CAB,8
+Malleshwaram West,MOPED,2
+Malleshwaram West,MOTOR CYCLE,120
+Malleshwaram West,OTHERS,1
+Malleshwaram West,PASSENGER AUTO,51
+Malleshwaram West,PRIVATE BUS,1
+Malleshwaram West,SCOOTER,249
+Malleshwaram West,VAN,2
+Mallige Thotta,CAR,19
+Mallige Thotta,GOODS AUTO,4
+Mallige Thotta,LGV,2
+Mallige Thotta,MAXI-CAB,4
+Mallige Thotta,MOPED,7
+Mallige Thotta,MOTOR CYCLE,566
+Mallige Thotta,PASSENGER AUTO,35
+Mallige Thotta,PRIVATE BUS,1
+Mallige Thotta,SCHOOL VEHICLE,1
+Mallige Thotta,SCOOTER,1578
+Mallige Thotta,VAN,1
+Manjunatha Nagar,CAR,326
+Manjunatha Nagar,GOODS AUTO,1
+Manjunatha Nagar,HGV,2
+Manjunatha Nagar,JEEP,7
+Manjunatha Nagar,LGV,7
+Manjunatha Nagar,MAXI-CAB,9
+Manjunatha Nagar,MINI LORRY,2
+Manjunatha Nagar,MOPED,9
+Manjunatha Nagar,MOTOR CYCLE,206
+Manjunatha Nagar,OTHERS,4
+Manjunatha Nagar,PASSENGER AUTO,28
+Manjunatha Nagar,SCOOTER,536
+Manjunatha Nagar,TRACTOR,1
+Manjunatha Nagar,VAN,2
+Mantri Altiue Apartment,BUS (BMTC/KSRTC),1
+Mantri Altiue Apartment,CAR,51
+Mantri Altiue Apartment,JEEP,1
+Mantri Altiue Apartment,LGV,2
+Mantri Altiue Apartment,MAXI-CAB,7
+Mantri Altiue Apartment,MOPED,1
+Mantri Altiue Apartment,MOTOR CYCLE,240
+Mantri Altiue Apartment,OTHERS,2
+Mantri Altiue Apartment,PASSENGER AUTO,21
+Mantri Altiue Apartment,SCOOTER,732
+Mantri Altiue Apartment,TRACTOR,1
+Manuvana,CAR,126
+Manuvana,JEEP,1
+Manuvana,LGV,4
+Manuvana,LORRY/GOODS VEHICLE,1
+Manuvana,MAXI-CAB,1
+Manuvana,MOPED,2
+Manuvana,MOTOR CYCLE,1132
+Manuvana,OTHERS,2
+Manuvana,PASSENGER AUTO,36
+Manuvana,SCHOOL VEHICLE,1
+Manuvana,SCOOTER,2257
+Manuvana,TEMPO,3
+Manuvana,VAN,3
+Mysore Bank Circle,BUS (BMTC/KSRTC),1
+Mysore Bank Circle,CAR,253
+Mysore Bank Circle,GOODS AUTO,6
+Mysore Bank Circle,HGV,1
+Mysore Bank Circle,JEEP,8
+Mysore Bank Circle,LGV,22
+Mysore Bank Circle,LORRY/GOODS VEHICLE,1
+Mysore Bank Circle,MAXI-CAB,31
+Mysore Bank Circle,MOPED,16
+Mysore Bank Circle,MOTOR CYCLE,99
+Mysore Bank Circle,OTHERS,3
+Mysore Bank Circle,PASSENGER AUTO,190
+Mysore Bank Circle,PRIVATE BUS,1
+Mysore Bank Circle,SCHOOL VEHICLE,1
+Mysore Bank Circle,SCOOTER,300
+Mysore Bank Circle,TANKER,2
+Mysore Bank Circle,TEMPO,2
+Mysore Bank Circle,TOURIST BUS,2
+Mysore Bank Circle,VAN,5
+Nada Prabhu Kempegowda Circle,CAR,364
+Nada Prabhu Kempegowda Circle,GOODS AUTO,2
+Nada Prabhu Kempegowda Circle,HGV,2
+Nada Prabhu Kempegowda Circle,JEEP,10
+Nada Prabhu Kempegowda Circle,LGV,6
+Nada Prabhu Kempegowda Circle,MAXI-CAB,8
+Nada Prabhu Kempegowda Circle,MOPED,4
+Nada Prabhu Kempegowda Circle,MOTOR CYCLE,272
+Nada Prabhu Kempegowda Circle,OTHERS,5
+Nada Prabhu Kempegowda Circle,PASSENGER AUTO,102
+Nada Prabhu Kempegowda Circle,SCOOTER,546
+Nada Prabhu Kempegowda Circle,TEMPO,3
+Nada Prabhu Kempegowda Circle,VAN,3
+Nagashetty Halli,CAR,50
+Nagashetty Halli,GOODS AUTO,6
+Nagashetty Halli,HGV,2
+Nagashetty Halli,JEEP,3
+Nagashetty Halli,LGV,17
+Nagashetty Halli,LORRY/GOODS VEHICLE,3
+Nagashetty Halli,MAXI-CAB,32
+Nagashetty Halli,MINI LORRY,1
+Nagashetty Halli,MOPED,6
+Nagashetty Halli,MOTOR CYCLE,310
+Nagashetty Halli,PASSENGER AUTO,40
+Nagashetty Halli,PRIVATE BUS,3
+Nagashetty Halli,SCOOTER,284
+Nagashetty Halli,TEMPO,5
+Nagashetty Halli,TOURIST BUS,2
+Nagashetty Halli,VAN,1
+Navarang Circle,BUS (BMTC/KSRTC),4
+Navarang Circle,CAR,142
+Navarang Circle,GOODS AUTO,1
+Navarang Circle,LGV,3
+Navarang Circle,LORRY/GOODS VEHICLE,1
+Navarang Circle,MAXI-CAB,9
+Navarang Circle,MOPED,4
+Navarang Circle,MOTOR CYCLE,269
+Navarang Circle,OTHERS,2
+Navarang Circle,PASSENGER AUTO,38
+Navarang Circle,SCOOTER,457
+Navarang Circle,VAN,2
+Nethaji Subhas Chadra Bose Circle,CAR,42
+Nethaji Subhas Chadra Bose Circle,LGV,5
+Nethaji Subhas Chadra Bose Circle,MAXI-CAB,1
+Nethaji Subhas Chadra Bose Circle,MOPED,3
+Nethaji Subhas Chadra Bose Circle,MOTOR CYCLE,165
+Nethaji Subhas Chadra Bose Circle,OTHERS,1
+Nethaji Subhas Chadra Bose Circle,PASSENGER AUTO,12
+Nethaji Subhas Chadra Bose Circle,SCOOTER,751
+New Horizon College of Engineering,CAR,176
+New Horizon College of Engineering,JEEP,9
+New Horizon College of Engineering,LGV,3
+New Horizon College of Engineering,LORRY/GOODS VEHICLE,1
+New Horizon College of Engineering,MAXI-CAB,80
+New Horizon College of Engineering,MOPED,64
+New Horizon College of Engineering,MOTOR CYCLE,1209
+New Horizon College of Engineering,PASSENGER AUTO,31
+New Horizon College of Engineering,PRIVATE BUS,2
+New Horizon College of Engineering,SCOOTER,2224
+New Horizon College of Engineering,TEMPO,4
+New Horizon College of Engineering,TOURIST BUS,1
+New Horizon College of Engineering,TRACTOR,1
+New Horizon College of Engineering,VAN,1
+Olivia,CAR,38
+Olivia,LGV,1
+Olivia,MOPED,2
+Olivia,MOTOR CYCLE,298
+Olivia,PASSENGER AUTO,3
+Olivia,SCOOTER,645
+Orion,CAR,665
+Orion,GOODS AUTO,8
+Orion,JEEP,5
+Orion,LGV,18
+Orion,LORRY/GOODS VEHICLE,8
+Orion,MAXI-CAB,193
+Orion,MINI LORRY,1
+Orion,MOPED,1
+Orion,MOTOR CYCLE,381
+Orion,OTHERS,1
+Orion,PASSENGER AUTO,939
+Orion,SCOOTER,641
+Orion,TEMPO,3
+Orion,VAN,3
+Parisara Organic Junction,CAR,438
+Parisara Organic Junction,GOODS AUTO,1
+Parisara Organic Junction,LGV,3
+Parisara Organic Junction,LORRY/GOODS VEHICLE,1
+Parisara Organic Junction,MAXI-CAB,2
+Parisara Organic Junction,MOTOR CYCLE,46
+Parisara Organic Junction,OTHERS,2
+Parisara Organic Junction,PASSENGER AUTO,100
+Parisara Organic Junction,SCOOTER,67
+Parisara Organic Junction,TEMPO,1
+Parisara Organic Junction,VAN,6
+Police Quarters,CAR,222
+Police Quarters,FACTORY BUS,1
+Police Quarters,GOODS AUTO,4
+Police Quarters,HGV,3
+Police Quarters,JEEP,4
+Police Quarters,LGV,22
+Police Quarters,LORRY/GOODS VEHICLE,4
+Police Quarters,MAXI-CAB,32
+Police Quarters,MOPED,3
+Police Quarters,MOTOR CYCLE,228
+Police Quarters,OTHERS,2
+Police Quarters,PASSENGER AUTO,90
+Police Quarters,PRIVATE BUS,4
+Police Quarters,SCOOTER,499
+Police Quarters,TEMPO,5
+Police Quarters,TOURIST BUS,3
+Police Quarters,VAN,1
+Prestige Silver Crest,BUS (BMTC/KSRTC),40
+Prestige Silver Crest,CAR,64
+Prestige Silver Crest,GOODS AUTO,7
+Prestige Silver Crest,LGV,4
+Prestige Silver Crest,MAXI-CAB,27
+Prestige Silver Crest,MINI LORRY,1
+Prestige Silver Crest,MOPED,25
+Prestige Silver Crest,MOTOR CYCLE,174
+Prestige Silver Crest,OTHERS,1
+Prestige Silver Crest,PASSENGER AUTO,52
+Prestige Silver Crest,PRIVATE BUS,6
+Prestige Silver Crest,SCOOTER,339
+Prestige Silver Crest,TANKER,1
+Prestige Silver Crest,TOURIST BUS,3
+R Subanna Circle,CAR,942
+R Subanna Circle,GOODS AUTO,2
+R Subanna Circle,HGV,6
+R Subanna Circle,JEEP,13
+R Subanna Circle,LGV,50
+R Subanna Circle,LORRY/GOODS VEHICLE,3
+R Subanna Circle,MAXI-CAB,144
+R Subanna Circle,MINI LORRY,2
+R Subanna Circle,MOPED,6
+R Subanna Circle,MOTOR CYCLE,81
+R Subanna Circle,PASSENGER AUTO,113
+R Subanna Circle,PRIVATE BUS,2
+R Subanna Circle,SCHOOL VEHICLE,3
+R Subanna Circle,SCOOTER,174
+R Subanna Circle,TEMPO,6
+R Subanna Circle,TOURIST BUS,2
+R Subanna Circle,TRACTOR,1
+R Subanna Circle,VAN,6
+RK Puram,BUS (BMTC/KSRTC),6
+RK Puram,CAR,1013
+RK Puram,GOODS AUTO,21
+RK Puram,HGV,2
+RK Puram,JEEP,16
+RK Puram,LGV,72
+RK Puram,LORRY/GOODS VEHICLE,3
+RK Puram,MAXI-CAB,122
+RK Puram,MOPED,81
+RK Puram,MOTOR CYCLE,1226
+RK Puram,OTHERS,7
+RK Puram,PASSENGER AUTO,854
+RK Puram,PRIVATE BUS,53
+RK Puram,SCOOTER,2574
+RK Puram,TANKER,2
+RK Puram,TEMPO,8
+RK Puram,TOURIST BUS,14
+RK Puram,VAN,27
+RPC Layout,CAR,482
+RPC Layout,FACTORY BUS,1
+RPC Layout,GOODS AUTO,19
+RPC Layout,HGV,1
+RPC Layout,JEEP,5
+RPC Layout,LGV,13
+RPC Layout,LORRY/GOODS VEHICLE,7
+RPC Layout,MAXI-CAB,12
+RPC Layout,MOPED,1
+RPC Layout,MOTOR CYCLE,324
+RPC Layout,OTHERS,2
+RPC Layout,PASSENGER AUTO,64
+RPC Layout,SCHOOL VEHICLE,2
+RPC Layout,SCOOTER,1005
+RPC Layout,TANKER,1
+RPC Layout,TEMPO,3
+RPC Layout,TRACTOR,1
+RPC Layout,VAN,5
+RR Palace,CAR,532
+RR Palace,GOODS AUTO,2
+RR Palace,JEEP,8
+RR Palace,LGV,5
+RR Palace,LORRY/GOODS VEHICLE,1
+RR Palace,MAXI-CAB,13
+RR Palace,MOTOR CYCLE,78
+RR Palace,PASSENGER AUTO,221
+RR Palace,SCOOTER,289
+RR Palace,VAN,8
+Railway Officers Enclave,BUS (BMTC/KSRTC),2
+Railway Officers Enclave,CAR,464
+Railway Officers Enclave,GOODS AUTO,5
+Railway Officers Enclave,HGV,7
+Railway Officers Enclave,JEEP,5
+Railway Officers Enclave,LGV,37
+Railway Officers Enclave,LORRY/GOODS VEHICLE,2
+Railway Officers Enclave,MAXI-CAB,30
+Railway Officers Enclave,MOPED,7
+Railway Officers Enclave,MOTOR CYCLE,108
+Railway Officers Enclave,OTHERS,3
+Railway Officers Enclave,PASSENGER AUTO,46
+Railway Officers Enclave,PRIVATE BUS,18
+Railway Officers Enclave,SCOOTER,282
+Railway Officers Enclave,TEMPO,1
+Railway Officers Enclave,VAN,10
+Rajaji Nagar,BUS (BMTC/KSRTC),67
+Rajaji Nagar,CAR,3326
+Rajaji Nagar,GOODS AUTO,14
+Rajaji Nagar,HGV,6
+Rajaji Nagar,JEEP,42
+Rajaji Nagar,LGV,52
+Rajaji Nagar,LORRY/GOODS VEHICLE,1
+Rajaji Nagar,MAXI-CAB,138
+Rajaji Nagar,MINI LORRY,1
+Rajaji Nagar,MOPED,144
+Rajaji Nagar,MOTOR CYCLE,1228
+Rajaji Nagar,OTHERS,17
+Rajaji Nagar,PASSENGER AUTO,278
+Rajaji Nagar,PRIVATE BUS,9
+Rajaji Nagar,SCHOOL VEHICLE,7
+Rajaji Nagar,SCOOTER,3339
+Rajaji Nagar,TANKER,8
+Rajaji Nagar,TEMPO,21
+Rajaji Nagar,TOURIST BUS,1
+Rajaji Nagar,TRACTOR,1
+Rajaji Nagar,VAN,13
+Ranganathapura,BUS (BMTC/KSRTC),1
+Ranganathapura,CAR,863
+Ranganathapura,GOODS AUTO,3
+Ranganathapura,JEEP,12
+Ranganathapura,LGV,14
+Ranganathapura,LORRY/GOODS VEHICLE,1
+Ranganathapura,MAXI-CAB,7
+Ranganathapura,MOTOR CYCLE,162
+Ranganathapura,PASSENGER AUTO,53
+Ranganathapura,SCOOTER,265
+Ranganathapura,TRACTOR,1
+Ranganathapura,VAN,1
+Royal Heritage,BUS (BMTC/KSRTC),127
+Royal Heritage,CAR,222
+Royal Heritage,FACTORY BUS,6
+Royal Heritage,GOODS AUTO,5
+Royal Heritage,HGV,6
+Royal Heritage,JEEP,1
+Royal Heritage,LGV,12
+Royal Heritage,LORRY/GOODS VEHICLE,1
+Royal Heritage,MAXI-CAB,59
+Royal Heritage,MINI LORRY,2
+Royal Heritage,MOTOR CYCLE,179
+Royal Heritage,OTHERS,2
+Royal Heritage,PASSENGER AUTO,276
+Royal Heritage,PRIVATE BUS,71
+Royal Heritage,SCHOOL VEHICLE,2
+Royal Heritage,SCOOTER,315
+Royal Heritage,TANKER,1
+Royal Heritage,TEMPO,9
+Royal Heritage,TOURIST BUS,10
+Royal Heritage,TRACTOR,1
+SM Layout,BUS (BMTC/KSRTC),11
+SM Layout,CAR,359
+SM Layout,LGV,3
+SM Layout,LORRY/GOODS VEHICLE,1
+SM Layout,MAXI-CAB,3
+SM Layout,MOPED,2
+SM Layout,MOTOR CYCLE,123
+SM Layout,OTHERS,2
+SM Layout,PASSENGER AUTO,90
+SM Layout,PRIVATE BUS,1
+SM Layout,SCHOOL VEHICLE,1
+SM Layout,SCOOTER,229
+SM Layout,TANKER,2
+SM Layout,TEMPO,29
+SM Layout,VAN,9
+Sadahalli Gate Junction,CAR,669
+Sadahalli Gate Junction,GOODS AUTO,1
+Sadahalli Gate Junction,HGV,8
+Sadahalli Gate Junction,JEEP,2
+Sadahalli Gate Junction,LGV,9
+Sadahalli Gate Junction,LORRY/GOODS VEHICLE,2
+Sadahalli Gate Junction,MAXI-CAB,167
+Sadahalli Gate Junction,MOTOR CYCLE,17
+Sadahalli Gate Junction,OTHERS,2
+Sadahalli Gate Junction,PASSENGER AUTO,7
+Sadahalli Gate Junction,PRIVATE BUS,6
+Sadahalli Gate Junction,SCOOTER,12
+Sadahalli Gate Junction,TEMPO,6
+Sadahalli Gate Junction,VAN,4
+Sagar Theatre Junction,CAR,431
+Sagar Theatre Junction,GOODS AUTO,10
+Sagar Theatre Junction,HGV,1
+Sagar Theatre Junction,JEEP,4
+Sagar Theatre Junction,LGV,29
+Sagar Theatre Junction,LORRY/GOODS VEHICLE,1
+Sagar Theatre Junction,MAXI-CAB,29
+Sagar Theatre Junction,MINI LORRY,1
+Sagar Theatre Junction,MOPED,12
+Sagar Theatre Junction,MOTOR CYCLE,142
+Sagar Theatre Junction,OTHERS,2
+Sagar Theatre Junction,PASSENGER AUTO,162
+Sagar Theatre Junction,PRIVATE BUS,4
+Sagar Theatre Junction,SCHOOL VEHICLE,1
+Sagar Theatre Junction,SCOOTER,374
+Sagar Theatre Junction,TEMPO,1
+Sagar Theatre Junction,VAN,10
+Santhusapete,CAR,65
+Santhusapete,GOODS AUTO,87
+Santhusapete,HGV,3
+Santhusapete,JEEP,1
+Santhusapete,LGV,181
+Santhusapete,LORRY/GOODS VEHICLE,2
+Santhusapete,MAXI-CAB,1
+Santhusapete,MOPED,15
+Santhusapete,MOTOR CYCLE,37
+Santhusapete,OTHERS,1
+Santhusapete,PASSENGER AUTO,415
+Santhusapete,SCOOTER,207
+Santhusapete,TEMPO,2
+Santhusapete,VAN,4
+Satellite Bus Stand Junction,CAR,123
+Satellite Bus Stand Junction,GOODS AUTO,4
+Satellite Bus Stand Junction,JEEP,2
+Satellite Bus Stand Junction,LGV,8
+Satellite Bus Stand Junction,LORRY/GOODS VEHICLE,1
+Satellite Bus Stand Junction,MAXI-CAB,28
+Satellite Bus Stand Junction,MOPED,5
+Satellite Bus Stand Junction,MOTOR CYCLE,131
+Satellite Bus Stand Junction,PASSENGER AUTO,169
+Satellite Bus Stand Junction,PRIVATE BUS,10
+Satellite Bus Stand Junction,SCOOTER,341
+Shivaji Nagar,BUS (BMTC/KSRTC),2
+Shivaji Nagar,CAR,404
+Shivaji Nagar,FACTORY BUS,1
+Shivaji Nagar,GOODS AUTO,8
+Shivaji Nagar,JEEP,3
+Shivaji Nagar,LGV,23
+Shivaji Nagar,LORRY/GOODS VEHICLE,4
+Shivaji Nagar,MAXI-CAB,44
+Shivaji Nagar,MOPED,4
+Shivaji Nagar,MOTOR CYCLE,77
+Shivaji Nagar,OTHERS,1
+Shivaji Nagar,PASSENGER AUTO,2743
+Shivaji Nagar,PRIVATE BUS,2
+Shivaji Nagar,SCOOTER,334
+Shivaji Nagar,TEMPO,2
+Shivaji Nagar,TOURIST BUS,2
+Shivaji Nagar,VAN,6
+Shopper Junction,CAR,156
+Shopper Junction,GOODS AUTO,5
+Shopper Junction,LGV,6
+Shopper Junction,MAXI-CAB,1
+Shopper Junction,MOPED,1
+Shopper Junction,MOTOR CYCLE,121
+Shopper Junction,PASSENGER AUTO,31
+Shopper Junction,SCOOTER,694
+Shopper Junction,VAN,2
+Shoukath Mohalla,CAR,293
+Shoukath Mohalla,GOODS AUTO,31
+Shoukath Mohalla,HGV,1
+Shoukath Mohalla,JEEP,3
+Shoukath Mohalla,LGV,93
+Shoukath Mohalla,MAXI-CAB,14
+Shoukath Mohalla,MINI LORRY,1
+Shoukath Mohalla,MOPED,12
+Shoukath Mohalla,MOTOR CYCLE,517
+Shoukath Mohalla,OTHERS,1
+Shoukath Mohalla,PASSENGER AUTO,204
+Shoukath Mohalla,PRIVATE BUS,3
+Shoukath Mohalla,SCOOTER,1166
+Shoukath Mohalla,TEMPO,14
+Shoukath Mohalla,VAN,14
+Shri Vinayaka Circle,BUS (BMTC/KSRTC),1
+Shri Vinayaka Circle,CAR,326
+Shri Vinayaka Circle,JEEP,5
+Shri Vinayaka Circle,LGV,4
+Shri Vinayaka Circle,MAXI-CAB,2
+Shri Vinayaka Circle,MOPED,20
+Shri Vinayaka Circle,MOTOR CYCLE,123
+Shri Vinayaka Circle,OTHERS,1
+Shri Vinayaka Circle,PASSENGER AUTO,16
+Shri Vinayaka Circle,SCOOTER,484
+Shri Vinayaka Circle,VAN,3
+Silver Enclave,CAR,125
+Silver Enclave,JEEP,2
+Silver Enclave,LGV,2
+Silver Enclave,LORRY/GOODS VEHICLE,1
+Silver Enclave,MAXI-CAB,1
+Silver Enclave,MOPED,8
+Silver Enclave,MOTOR CYCLE,120
+Silver Enclave,PASSENGER AUTO,17
+Silver Enclave,SCOOTER,487
+Silver Enclave,TANKER,1
+Silver Enclave,VAN,1
+Sindhya Sunshine Apartment,CAR,100
+Sindhya Sunshine Apartment,JEEP,1
+Sindhya Sunshine Apartment,LGV,5
+Sindhya Sunshine Apartment,MAXI-CAB,3
+Sindhya Sunshine Apartment,MOPED,2
+Sindhya Sunshine Apartment,MOTOR CYCLE,381
+Sindhya Sunshine Apartment,OTHERS,1
+Sindhya Sunshine Apartment,PASSENGER AUTO,21
+Sindhya Sunshine Apartment,SCOOTER,799
+Sindhya Sunshine Apartment,TEMPO,2
+Sindhya Sunshine Apartment,VAN,1
+Sri Kanakadasa Circle,CAR,1465
+Sri Kanakadasa Circle,GOODS AUTO,36
+Sri Kanakadasa Circle,HGV,11
+Sri Kanakadasa Circle,JEEP,21
+Sri Kanakadasa Circle,LGV,113
+Sri Kanakadasa Circle,LORRY/GOODS VEHICLE,4
+Sri Kanakadasa Circle,MAXI-CAB,57
+Sri Kanakadasa Circle,MINI LORRY,1
+Sri Kanakadasa Circle,MOPED,28
+Sri Kanakadasa Circle,MOTOR CYCLE,318
+Sri Kanakadasa Circle,OTHERS,13
+Sri Kanakadasa Circle,PASSENGER AUTO,139
+Sri Kanakadasa Circle,PRIVATE BUS,37
+Sri Kanakadasa Circle,SCHOOL VEHICLE,1
+Sri Kanakadasa Circle,SCOOTER,802
+Sri Kanakadasa Circle,TEMPO,9
+Sri Kanakadasa Circle,TOURIST BUS,2
+Sri Kanakadasa Circle,VAN,13
+Sri Krishna Rajendra Market,CAR,300
+Sri Krishna Rajendra Market,GOODS AUTO,35
+Sri Krishna Rajendra Market,HGV,1
+Sri Krishna Rajendra Market,JEEP,6
+Sri Krishna Rajendra Market,LGV,172
+Sri Krishna Rajendra Market,LORRY/GOODS VEHICLE,2
+Sri Krishna Rajendra Market,MAXI-CAB,9
+Sri Krishna Rajendra Market,MINI LORRY,1
+Sri Krishna Rajendra Market,MOPED,16
+Sri Krishna Rajendra Market,MOTOR CYCLE,386
+Sri Krishna Rajendra Market,OTHERS,1
+Sri Krishna Rajendra Market,PASSENGER AUTO,213
+Sri Krishna Rajendra Market,SCOOTER,1571
+Sri Krishna Rajendra Market,VAN,22
+Sri Nagamma Devi Circle,CAR,1734
+Sri Nagamma Devi Circle,GOODS AUTO,36
+Sri Nagamma Devi Circle,HGV,2
+Sri Nagamma Devi Circle,JEEP,6
+Sri Nagamma Devi Circle,LGV,99
+Sri Nagamma Devi Circle,LORRY/GOODS VEHICLE,6
+Sri Nagamma Devi Circle,MAXI-CAB,117
+Sri Nagamma Devi Circle,MOPED,8
+Sri Nagamma Devi Circle,MOTOR CYCLE,445
+Sri Nagamma Devi Circle,OTHERS,7
+Sri Nagamma Devi Circle,PASSENGER AUTO,4198
+Sri Nagamma Devi Circle,PRIVATE BUS,1
+Sri Nagamma Devi Circle,SCHOOL VEHICLE,1
+Sri Nagamma Devi Circle,SCOOTER,1535
+Sri Nagamma Devi Circle,TEMPO,16
+Sri Nagamma Devi Circle,TOURIST BUS,1
+Sri Nagamma Devi Circle,VAN,8
+Star Circle,CAR,348
+Star Circle,GOODS AUTO,3
+Star Circle,JEEP,8
+Star Circle,LGV,16
+Star Circle,LORRY/GOODS VEHICLE,4
+Star Circle,MAXI-CAB,10
+Star Circle,MOPED,125
+Star Circle,MOTOR CYCLE,302
+Star Circle,OTHERS,5
+Star Circle,PASSENGER AUTO,70
+Star Circle,SCOOTER,674
+Star Circle,TEMPO,2
+Star Circle,VAN,2
+Tasker Town,CAR,1848
+Tasker Town,GOODS AUTO,16
+Tasker Town,HGV,1
+Tasker Town,JEEP,10
+Tasker Town,LGV,55
+Tasker Town,LORRY/GOODS VEHICLE,5
+Tasker Town,MAXI-CAB,97
+Tasker Town,MINI LORRY,3
+Tasker Town,MOPED,45
+Tasker Town,MOTOR CYCLE,1231
+Tasker Town,OTHERS,7
+Tasker Town,PASSENGER AUTO,1036
+Tasker Town,PRIVATE BUS,1
+Tasker Town,SCOOTER,3924
+Tasker Town,TANKER,1
+Tasker Town,TEMPO,6
+Tasker Town,VAN,18
+The Metropolitan Cooperative Housing Society,CAR,199
+The Metropolitan Cooperative Housing Society,LGV,4
+The Metropolitan Cooperative Housing Society,LORRY/GOODS VEHICLE,1
+The Metropolitan Cooperative Housing Society,MAXI-CAB,3
+The Metropolitan Cooperative Housing Society,MOPED,70
+The Metropolitan Cooperative Housing Society,MOTOR CYCLE,372
+The Metropolitan Cooperative Housing Society,PASSENGER AUTO,5
+The Metropolitan Cooperative Housing Society,SCOOTER,380
+The Metropolitan Cooperative Housing Society,TANKER,1
+Thulasi Thottam,CAR,64
+Thulasi Thottam,HGV,1
+Thulasi Thottam,JEEP,5
+Thulasi Thottam,LGV,5
+Thulasi Thottam,MAXI-CAB,3
+Thulasi Thottam,MINI LORRY,1
+Thulasi Thottam,MOPED,1
+Thulasi Thottam,MOTOR CYCLE,115
+Thulasi Thottam,PASSENGER AUTO,42
+Thulasi Thottam,SCOOTER,615
+Thulasi Thottam,VAN,4
+Venkatappa Colony,BUS (BMTC/KSRTC),19
+Venkatappa Colony,CAR,416
+Venkatappa Colony,HGV,3
+Venkatappa Colony,LGV,3
+Venkatappa Colony,LORRY/GOODS VEHICLE,1
+Venkatappa Colony,MAXI-CAB,105
+Venkatappa Colony,MINI LORRY,1
+Venkatappa Colony,MOPED,4
+Venkatappa Colony,MOTOR CYCLE,78
+Venkatappa Colony,OTHERS,2
+Venkatappa Colony,PASSENGER AUTO,414
+Venkatappa Colony,PRIVATE BUS,14
+Venkatappa Colony,SCHOOL VEHICLE,2
+Venkatappa Colony,SCOOTER,72
+Venkatappa Colony,TEMPO,7
+Venkatappa Colony,TOURIST BUS,2
+Venkatappa Colony,VAN,2
+Vinayaka Nagar,CAR,590
+Vinayaka Nagar,GOODS AUTO,9
+Vinayaka Nagar,HGV,5
+Vinayaka Nagar,JEEP,3
+Vinayaka Nagar,LGV,40
+Vinayaka Nagar,LORRY/GOODS VEHICLE,3
+Vinayaka Nagar,MAXI-CAB,53
+Vinayaka Nagar,MOPED,3
+Vinayaka Nagar,MOTOR CYCLE,789
+Vinayaka Nagar,OTHERS,2
+Vinayaka Nagar,PASSENGER AUTO,439
+Vinayaka Nagar,SCHOOL VEHICLE,1
+Vinayaka Nagar,SCOOTER,1156
+Vinayaka Nagar,TEMPO,4
+Vinayaka Nagar,VAN,7
+Walton Road Circle,CAR,342
+Walton Road Circle,HGV,1
+Walton Road Circle,JEEP,6
+Walton Road Circle,LORRY/GOODS VEHICLE,1
+Walton Road Circle,MAXI-CAB,30
+Walton Road Circle,MOPED,2
+Walton Road Circle,MOTOR CYCLE,95
+Walton Road Circle,OTHERS,4
+Walton Road Circle,PASSENGER AUTO,18
+Walton Road Circle,PRIVATE BUS,1
+Walton Road Circle,SCHOOL VEHICLE,3
+Walton Road Circle,SCOOTER,174
+Walton Road Circle,VAN,3

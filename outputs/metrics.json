@@ -1,0 +1,142 @@
+{
+  "rows_total": 298445,
+  "days": 151,
+  "parking_share_pct": 100.0,
+  "n_cells": 2534,
+  "n_zones": 78,
+  "n_chronic_cells": 146,
+  "forecast": {
+    "cv_r2": 0.8208,
+    "cv_mae_per_week": 0.131,
+    "ensemble": "HistGB+LightGBM",
+    "pi_coverage_80": 0.905
+  },
+  "stability": {
+    "spatial_pearson": 0.939,
+    "spacetime_pearson": 0.861
+  },
+  "roi": {
+    "impact_covered_top5pct_zones": 74.7,
+    "impact_covered_top10pct_zones": 86.2,
+    "zones_for_50pct_impact": 37,
+    "zones_for_80pct_impact": 170,
+    "total_cells": 2534
+  },
+  "offenders": {
+    "n_vehicles": 231890,
+    "n_violations": 298445,
+    "repeat_share_%": 15.3,
+    "vio_from_repeat_%": 34.2,
+    "share_top1pct": 7.1,
+    "share_top5pct": 18.1,
+    "share_top10pct": 25.9,
+    "max_by_one_vehicle": 55
+  },
+  "emerging": {
+    "n_emerging": 278,
+    "top_growth_x": 43.8,
+    "top_area": "Old Bagalur Layout"
+  },
+  "coverage": {
+    "n_under_enforced": 13,
+    "median_enf_days_top_hotspots": 82.0,
+    "corr_demand_effort": 0.944
+  },
+  "cost": {
+    "annual_cost_cr": 1.73,
+    "annual_cost_cr_low": 0.69,
+    "annual_cost_cr_high": 3.23,
+    "annual_cost_inr": 17307960,
+    "top10pct_cost_share_%": 78.4,
+    "cost_per_day_lakh": 0.47,
+    "assumptions": "12 veh-min/full-block \u00b7 \u20b9250/veh-hr (illustrative)"
+  },
+  "severity_calibrated": true,
+  "pi_coverage_80": 0.905,
+  "trends": {
+    "months_used": [
+      "2023-12",
+      "2024-01",
+      "2024-02",
+      "2024-03"
+    ],
+    "improving": 162,
+    "worsening": 75,
+    "stable": 81,
+    "net_worsening_pct": -27.4
+  },
+  "deterrence": {
+    "habitual_vehicles": 11852,
+    "median_gap_early_days": 8.0,
+    "median_gap_late_days": 4.2,
+    "deters": false
+  },
+  "poi": {
+    "available": true,
+    "n_poi": 345,
+    "poi_breakdown": {
+      "Bus station": 102,
+      "Metro": 94,
+      "Mall": 77,
+      "Market": 72
+    },
+    "top_n": 50,
+    "radius_m": 400,
+    "pct_top_near_poi": 72.0,
+    "pct_near_metro": 14.0,
+    "pct_near_market_mall": 38.0
+  },
+  "holdout": {
+    "holdout_r2_cellhour": 0.7248,
+    "holdout_r2_spatial": 0.8836,
+    "holdout_r2_slot": 0.3522,
+    "persistence_r2_cellhour": 0.6904,
+    "persistence_r2_spatial": 0.8552,
+    "lift_vs_persistence": 1.05,
+    "train_weeks": 16,
+    "test_weeks": 8,
+    "train_share": 0.7
+  },
+  "validation": {
+    "available": true,
+    "n_events_total": 8173,
+    "n_congestion_accident": 501,
+    "validation_res": 7,
+    "pearson_logCIS_logEvents": 0.471,
+    "spearman": 0.506,
+    "events_in_top20pct_CIS_%": 32.9,
+    "lift_vs_random": 1.64,
+    "neighbourhood_pearson_res6": 0.776,
+    "neighbourhood_events_top20pct_%": 63.1,
+    "neighbourhood_lift": 3.15,
+    "corr_volume_only": 0.778,
+    "corr_CIS": 0.776,
+    "partial_corr_CIS_given_volume": -0.209,
+    "decile_event_counts": {
+      "1": 4,
+      "2": 10,
+      "3": 16,
+      "4": 26,
+      "5": 25,
+      "6": 49,
+      "7": 86,
+      "8": 113,
+      "9": 37,
+      "10": 124
+    },
+    "topzone_precision": {
+      "available": true,
+      "top_n": 20,
+      "radius_m": 500,
+      "precision_%": 40.0
+    }
+  },
+  "top_zone": {
+    "name": "Cottonpet Circle",
+    "CIS_100": 100.0,
+    "n_parking": 20786,
+    "top_violation": "NO PARKING",
+    "police_station": "Upparpet"
+  },
+  "runtime_sec": 101.6
+}

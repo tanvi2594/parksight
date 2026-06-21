@@ -1,0 +1,17 @@
+# data (large / provided separately)
+jan to may police violation_anonymized*.csv
+astram_event_data.csv
+*.csv.gz
+
+# secrets (never commit Mappls credentials)
+secret_mappls*.txt
+*secret*.txt
+.env
+
+# caches
+__pycache__/
+*.pyc
+.streamlit/secrets.toml
+data/clean.parquet
+
+# keep: outputs/ (generated artifacts so the app runs without a rebuild)

@@ -1,0 +1,4 @@
+# Build-time only (NOT needed to run the app on Streamlit Cloud):
+-r requirements.txt
+kaleido>=0.2        # static image export for snapshots (gen_snapshots.py)
+python-pptx>=0.6    # pitch-deck generation (make_deck.py)
