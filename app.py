@@ -70,6 +70,12 @@ h2,h3{{letter-spacing:.2px;font-weight:700;color:{INK};}}
 .badge{{display:inline-block;padding:3px 10px;border-radius:999px;font-size:11px;font-weight:600;
   background:{GRN}14;color:{GRN};border:1px solid {GRN}33;}}
 .stButton>button, .stDownloadButton>button{{border-radius:9px;font-weight:600;}}
+section[data-testid="stSidebar"] .stButton>button, section[data-testid="stSidebar"] .stDownloadButton>button{{
+  background:#22304d!important;border:1px solid #33466b!important;}}
+section[data-testid="stSidebar"] .stButton>button *, section[data-testid="stSidebar"] .stDownloadButton>button *,
+section[data-testid="stSidebar"] .stButton>button p, section[data-testid="stSidebar"] .stDownloadButton>button p{{color:#eaf1fb!important;}}
+section[data-testid="stSidebar"] .stButton>button:hover, section[data-testid="stSidebar"] .stDownloadButton>button:hover{{
+  background:#2c3d61!important;border-color:#46608f!important;}}
 </style>""", unsafe_allow_html=True)
 
 
