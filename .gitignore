@@ -8,6 +8,10 @@ secret_mappls*.txt
 *secret*.txt
 .env
 
+# deck build temp (cleaned screenshots / preview renders)
+snapshots/_deck/
+snapshots/_deckpng/
+
 # caches
 __pycache__/
 *.pyc
