@@ -61,6 +61,8 @@ hr.sep{{border:0;border-top:1px solid {BORDER};margin:12px 0 16px;}}
 .stTabs [aria-selected="true"]{{color:{SKY}!important;border-bottom:2px solid {SKY}!important;}}
 section[data-testid="stSidebar"]{{background:#0f1d35;border-right:1px solid #16233c;}}
 section[data-testid="stSidebar"] *{{color:#dbe5f3!important;}}
+section[data-testid="stSidebar"] div[data-baseweb="select"] *{{color:#1f2937!important;}}
+div[data-baseweb="popover"] li, div[data-baseweb="menu"] *{{color:#1f2937!important;}}
 section[data-testid="stSidebar"] .block-container{{padding-top:1.2rem;}}
 .stDataFrame{{border:1px solid {BORDER};border-radius:10px;}}
 h2,h3{{letter-spacing:.2px;font-weight:700;color:{INK};}}
