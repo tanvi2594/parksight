@@ -190,8 +190,9 @@ with st.sidebar:
                 unsafe_allow_html=True)
     st.markdown('<hr class="sep">', unsafe_allow_html=True)
     st.markdown("**Filters**")
-    stations = ["All"] + sorted(zones.police_station.dropna().unique().tolist())
-    sel = st.selectbox("Police station", stations)
+    stations = sorted(zones.police_station.dropna().unique().tolist())
+    sel = st.multiselect("Police station", stations, default=[], placeholder="All stations",
+                         help="Pick one or more stations · leave empty for the whole city")
     min_cis = st.slider("Minimum impact score", 0, 100, 0, 5)
     st.markdown('<hr class="sep">', unsafe_allow_html=True)
     st.markdown("**Deploy & Simulate**")
@@ -213,12 +214,12 @@ with st.sidebar:
     st.caption(f"{M['rows_total']:,} violations · {M['days']} days · {CITY_NAME}")
 
 fz = zones.copy()
-if sel != "All": fz = fz[fz.police_station == sel]
+if sel: fz = fz[fz.police_station.isin(sel)]
 fz = fz[fz.CIS_100 >= min_cis].reset_index(drop=True)
 if len(fz) == 0:                       # guard: never let filters empty the app mid-demo
     st.toast("No zones match the filters · showing all zones.")
     fz = zones.copy()
-fc = cells if sel == "All" else cells[cells.police_station == sel]
+fc = cells if not sel else cells[cells.police_station.isin(sel)]
 if len(fc) == 0:
     fc = cells
 simz = fz.sort_values("CIS", ascending=False).reset_index(drop=True)
