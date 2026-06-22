@@ -65,6 +65,10 @@ section[data-testid="stSidebar"] div[data-baseweb="select"] *{{color:#1f2937!imp
 section[data-testid="stSidebar"] [data-testid="stTooltipIcon"] svg,
 section[data-testid="stSidebar"] label svg{{fill:#9fb2cf!important;color:#9fb2cf!important;}}
 div[data-baseweb="popover"] li, div[data-baseweb="menu"] *{{color:#1f2937!important;}}
+[data-testid="stSidebarCollapsedControl"]{{background:#2563eb!important;border-radius:9px!important;
+  padding:3px 5px!important;box-shadow:0 2px 8px rgba(2,12,30,.28)!important;}}
+[data-testid="stSidebarCollapsedControl"] svg{{fill:#ffffff!important;color:#ffffff!important;
+  width:1.4rem!important;height:1.4rem!important;}}
 section[data-testid="stSidebar"] .block-container{{padding-top:1.2rem;}}
 .stDataFrame{{border:1px solid {BORDER};border-radius:10px;}}
 h2,h3{{letter-spacing:.2px;font-weight:700;color:{INK};}}
