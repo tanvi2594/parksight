@@ -243,6 +243,9 @@ st.markdown(f'<div class="top"><div class="logo">🅿</div>'
             f'just today&apos;s hotspots, but <b>where enforcement is missing</b>, <b>where congestion is '
             f'emerging</b>, and <b>when</b> to act · cross-checked against independent congestion data.</div>',
             unsafe_allow_html=True)
+st.markdown('<div class="cap" style="margin:-2px 0 8px">▶ <b>Live interactive demo</b> — give maps & the 3-D '
+            'view a few seconds to render; if a panel looks blank, refresh once. Use the <b>sidebar</b> to scope '
+            'by station and set patrol count.</div>', unsafe_allow_html=True)
 
 ho, cost, v = M.get("holdout", {}), M.get("cost", {}), M.get("validation", {})
 c = st.columns(6)
@@ -307,25 +310,7 @@ with T[0]:
     view3d = h[2].toggle("3D city", False)
     show_route = h[3].toggle("Route", True)
     show_poi = h[4].toggle("POI", False)
-    if view3d:
-        d3 = fc.copy()
-        rgbs = d3.CIS.map(cis_rgb)
-        d3["r"] = [c[0] for c in rgbs]; d3["g"] = [c[1] for c in rgbs]; d3["b"] = [c[2] for c in rgbs]
-        layers = [pdk.Layer("H3HexagonLayer", d3[["h3", "CIS", "area", "r", "g", "b"]],
-                            get_hexagon="h3", get_fill_color="[r, g, b]", get_elevation="CIS",
-                            elevation_scale=24, extruded=True, opacity=0.86, coverage=0.92, pickable=True)]
-        if len(chosen):
-            layers.append(pdk.Layer("ColumnLayer", chosen[["lat", "lon"]],
-                                    get_position="[lon, lat]", get_elevation=2600, radius=70,
-                                    get_fill_color="[52, 211, 153, 200]", elevation_scale=1))
-        view = pdk.ViewState(latitude=CITY_CENTER[0], longitude=CITY_CENTER[1], zoom=10.4, pitch=55, bearing=18)
-        st.pydeck_chart(pdk.Deck(layers=layers, initial_view_state=view, map_provider="carto",
-                        map_style="light_no_labels", tooltip={"text": "{area}\nImpact {CIS}"}),
-                        use_container_width=True)
-        st.markdown('<div class="cap">3D column height & colour = Congestion-Impact per ≈150 m hexagon · '
-                    'green pillars = patrol-assigned zones. Drag to rotate, scroll to zoom.</div>',
-                    unsafe_allow_html=True)
-    else:
+    def _draw_2d():
         fig = go.Figure()
         if GEO is not None:
             fig.add_trace(go.Choroplethmapbox(
@@ -356,6 +341,32 @@ with T[0]:
                     f'zones · blue line = {"road-following" if is_road else "optimised"} patrol route '
                     f'({road_km} km). Switch <b>Basemap</b> to Streets/Satellite, or toggle <b>3D city</b>.</div>',
                     unsafe_allow_html=True)
+
+    if view3d:
+        try:
+            d3 = fc.copy()
+            rgbs = d3.CIS.map(cis_rgb)
+            d3["r"] = [c[0] for c in rgbs]; d3["g"] = [c[1] for c in rgbs]; d3["b"] = [c[2] for c in rgbs]
+            layers = [pdk.Layer("H3HexagonLayer", d3[["h3", "CIS", "area", "r", "g", "b"]],
+                                get_hexagon="h3", get_fill_color="[r, g, b]", get_elevation="CIS",
+                                elevation_scale=24, extruded=True, opacity=0.86, coverage=0.92, pickable=True)]
+            if len(chosen):
+                layers.append(pdk.Layer("ColumnLayer", chosen[["lat", "lon"]],
+                                        get_position="[lon, lat]", get_elevation=2600, radius=70,
+                                        get_fill_color="[52, 211, 153, 200]", elevation_scale=1))
+            view = pdk.ViewState(latitude=CITY_CENTER[0], longitude=CITY_CENTER[1], zoom=10.4, pitch=55, bearing=18)
+            st.pydeck_chart(pdk.Deck(layers=layers, initial_view_state=view, map_provider="carto",
+                            map_style="light_no_labels", tooltip={"text": "{area}\nImpact {CIS}"}),
+                            use_container_width=True)
+            st.markdown('<div class="cap">3D column height & colour = Congestion-Impact per ≈150 m hexagon · '
+                        'green pillars = patrol-assigned zones. Drag to rotate, scroll to zoom.</div>',
+                        unsafe_allow_html=True)
+        except Exception:
+            st.info("3-D view couldn't initialise in this browser (WebGL / deck.gl). Showing the 2-D impact "
+                    "map instead — untoggle **3D city** to dismiss.")
+            _draw_2d()
+    else:
+        _draw_2d()
 
 # ── Live Ops (Right Now) ────────────────────────────────────────────────────
 with T[1]:
@@ -507,6 +518,22 @@ with T[3]:
                 f'"same as last month" baseline already reaches R² {ho.get("persistence_r2_cellhour","?")} at '
                 f'location×hour; the model adds most where patterns <b>change</b> (emerging/declining cells). '
                 f'Each prediction carries an 80% confidence band.</div>', unsafe_allow_html=True)
+    _hc, _pc = ho.get("holdout_r2_cellhour", 0), ho.get("persistence_r2_cellhour", 0)
+    _hs, _ps = ho.get("holdout_r2_spatial", 0), ho.get("persistence_r2_spatial", 0)
+    _em = M.get("emerging", {})
+    st.markdown(
+        f"<div style='background:#ecfdf5;border:1px solid #a7f3d0;border-left:4px solid {GRN};"
+        f"border-radius:10px;padding:12px 16px;margin:6px 0 10px;color:{INK};font-size:14px;line-height:1.55'>"
+        f"<b style='color:{GRN}'>What the forecast adds over a “same-as-last-month” baseline</b><br>"
+        f"• <b>Beats persistence on the hard metric</b> — location×hour R² <b>{_hc}</b> vs {_pc} "
+        f"(+{_hc-_pc:.3f}); spatial <b>{_hs}</b> vs {_ps} (+{_hs-_ps:.3f}).<br>"
+        f"• <b>Hour-level resolution persistence can’t give</b> — last-month is one number per cell; the model "
+        f"predicts every day×hour, exactly what shift scheduling needs.<br>"
+        f"• <b>Per-prediction 80% confidence bands</b> ({int(100*M.get('pi_coverage_80',0))}% empirical "
+        f"coverage) — a naïve copy offers no uncertainty at all.<br>"
+        f"• <b>Anticipates change</b> — flags {_em.get('n_emerging','—')} emerging cells "
+        f"(fastest +{_em.get('top_growth_x','—')}×, {_em.get('top_area','')}) a last-month copy can’t see."
+        f"</div>", unsafe_allow_html=True)
     st.subheader("Recommended proactive patrol windows (with confidence band)")
     sch = D["schedule"].head(40).copy()
     cols = ["day", "window", "risk"] + [c for c in ["risk_low", "risk_high"] if c in sch.columns] + ["lat", "lon"]

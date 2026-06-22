@@ -15,6 +15,30 @@ road-routed patrol plan** — surfacing not just today's hotspots, but **where e
 
 ---
 
+## ⚡ Judge Quickstart (60 seconds)
+
+**▶ Live demo:** https://parksight-56uw7lhwdjegyhwi9vmdmm.streamlit.app
+*(Free tier — if it's asleep, give it ~20 s to wake. If a map looks blank, refresh once.)*
+
+**Click these 3 things — they're what sets ParkSight apart:**
+
+1. **Priorities & Deploy → the "optimised vs naive" bar chart.** Same patrol budget, **+13 pp more
+   congestion impact covered** — operations-research max-coverage, not just ranking.
+2. **Validation tab.** Cross-checked against a **separate, independent** dataset (`astram_event_data.csv`):
+   **63%** of independent congestion events fall in our worst-20% parking areas — **3.15× random** —
+   then a controlled partial-correlation check, shown honestly.
+3. **Command Map → toggle "3D city".** A handful of towers dominate the skyline: visual proof that
+   **~7% of the city carries 80% of the impact.**
+
+**Bonus:** type a question into **Ask ParkSight** (e.g. *"deploy Friday 6pm near Koramangala"*) —
+plain-English deployment queries, fully offline.
+
+**Data compliance:** all modelling uses **only** the provided `jan to may police
+violation_anonymized791b166.csv`; `astram_event_data.csv` is used **only** for validation; maps & routing
+are MapmyIndia (Mappls) + OpenStreetMap/OSRM.
+
+---
+
 ## 1. Problem
 
 On-street and spillover illegal parking near markets, metro stations and events chokes carriageways
