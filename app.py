@@ -62,6 +62,8 @@ hr.sep{{border:0;border-top:1px solid {BORDER};margin:12px 0 16px;}}
 section[data-testid="stSidebar"]{{background:#0f1d35;border-right:1px solid #16233c;}}
 section[data-testid="stSidebar"] *{{color:#dbe5f3!important;}}
 section[data-testid="stSidebar"] div[data-baseweb="select"] *{{color:#1f2937!important;}}
+section[data-testid="stSidebar"] [data-testid="stTooltipIcon"] svg,
+section[data-testid="stSidebar"] label svg{{fill:#9fb2cf!important;color:#9fb2cf!important;}}
 div[data-baseweb="popover"] li, div[data-baseweb="menu"] *{{color:#1f2937!important;}}
 section[data-testid="stSidebar"] .block-container{{padding-top:1.2rem;}}
 .stDataFrame{{border:1px solid {BORDER};border-radius:10px;}}
