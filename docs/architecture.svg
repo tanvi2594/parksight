@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 470" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="940" height="470" fill="#ffffff"/>
+  <text x="28" y="38" font-size="20" font-weight="700" fill="#1f2937">ParkSight — architecture</text>
+  <text x="28" y="60" font-size="12.5" fill="#6b7a90">Reproducible pipeline → committed artifacts → live command center</text>
+
+  <rect x="28" y="92" width="232" height="64" rx="10" fill="#eef4ff" stroke="#cfe0ff"/>
+  <text x="44" y="120" font-size="12.5" font-weight="700" fill="#2563eb">Provided dataset</text>
+  <text x="44" y="139" font-size="10.5" fill="#1f2937">jan to may police violation…791b166.csv</text>
+  <text x="44" y="151" font-size="9.5" fill="#6b7a90">298,445 violations · 151 days (modelling)</text>
+
+  <line x1="260" y1="124" x2="300" y2="124" stroke="#9fb2cf" stroke-width="2" marker-end="url(#a)"/>
+
+  <rect x="300" y="80" width="300" height="300" rx="12" fill="#f4f7fb" stroke="#e3e8f0"/>
+  <text x="316" y="104" font-size="12.5" font-weight="700" fill="#1f2937">src/ pipeline (config-driven)</text>
+
+  <g font-size="11" fill="#1f2937">
+    <rect x="316" y="116" width="268" height="36" rx="8" fill="#ffffff" stroke="#e3e8f0"/>
+    <text x="328" y="132" font-weight="700">pipeline.py</text><text x="328" y="146" font-size="9.5" fill="#6b7a90">clean · severity · Uber H3 (res 9)</text>
+
+    <rect x="316" y="158" width="268" height="36" rx="8" fill="#ffffff" stroke="#e3e8f0"/>
+    <text x="328" y="174" font-weight="700">hotspots.py</text><text x="328" y="188" font-size="9.5" fill="#6b7a90">Congestion-Impact Score · DBSCAN zones</text>
+
+    <rect x="316" y="200" width="268" height="36" rx="8" fill="#ffffff" stroke="#e3e8f0"/>
+    <text x="328" y="216" font-weight="700">forecast.py</text><text x="328" y="230" font-size="9.5" fill="#6b7a90">HistGB + LightGBM · hold-out · intervals</text>
+
+    <rect x="316" y="242" width="268" height="36" rx="8" fill="#ffffff" stroke="#e3e8f0"/>
+    <text x="328" y="258" font-weight="700">analytics.py</text><text x="328" y="272" font-size="9.5" fill="#6b7a90">offenders · gaps · cost · max-coverage · routing</text>
+
+    <rect x="316" y="284" width="268" height="36" rx="8" fill="#ffffff" stroke="#e3e8f0"/>
+    <text x="328" y="300" font-weight="700">validate.py</text><text x="328" y="314" font-size="9.5" fill="#6b7a90">vs astram_event_data.csv (+ controlled check)</text>
+
+    <rect x="316" y="326" width="268" height="36" rx="8" fill="#ffffff" stroke="#e3e8f0"/>
+    <text x="328" y="342" font-weight="700">poi.py</text><text x="328" y="356" font-size="9.5" fill="#6b7a90">OpenStreetMap commercial / transit context</text>
+  </g>
+
+  <line x1="600" y1="150" x2="648" y2="150" stroke="#9fb2cf" stroke-width="2" marker-end="url(#a)"/>
+
+  <rect x="648" y="116" width="264" height="72" rx="10" fill="#ecfdf5" stroke="#a7f3d0"/>
+  <text x="664" y="142" font-size="12.5" font-weight="700" fill="#059669">build_all.py → outputs/</text>
+  <text x="664" y="161" font-size="10" fill="#1f2937">csv · geojson · charts · metrics.json</text>
+  <text x="664" y="177" font-size="9.5" fill="#6b7a90">committed → app boots with no raw data</text>
+
+  <line x1="780" y1="188" x2="780" y2="232" stroke="#9fb2cf" stroke-width="2" marker-end="url(#a)"/>
+
+  <rect x="648" y="232" width="264" height="148" rx="10" fill="#0f1d35"/>
+  <rect x="648" y="232" width="264" height="6" rx="3" fill="#2563eb"/>
+  <text x="664" y="262" font-size="13" font-weight="700" fill="#ffffff">app.py — Streamlit command center</text>
+  <text x="664" y="283" font-size="10" fill="#9dc2ff">9 interactive views · Ask-in-English · PDF brief</text>
+  <text x="664" y="306" font-size="10" fill="#c7d4ea">routing.py · mappls.py</text>
+  <text x="664" y="322" font-size="9.5" fill="#8aa0c0">MapmyIndia (Mappls) maps + routing</text>
+  <text x="664" y="343" font-size="9.5" fill="#8aa0c0">OSRM / OpenStreetMap fallback</text>
+  <text x="664" y="364" font-size="9.5" fill="#8aa0c0">leakage-free OOF encoding · pytest</text>
+
+  <defs>
+    <marker id="a" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#9fb2cf"/>
+    </marker>
+  </defs>
+</svg>

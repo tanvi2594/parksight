@@ -149,6 +149,8 @@ region (res-7 / res-6) rates, mean severity, peak share.
 
 ## 8. Architecture
 
+![ParkSight architecture](docs/architecture.svg)
+
 ```
 raw violations CSV (298K) ─► pipeline.py   clean · parse · severity · H3 index
                               ├─► hotspots.py   H3 cells + Congestion-Impact Score ─► DBSCAN zones
