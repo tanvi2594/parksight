@@ -74,6 +74,8 @@ div[data-baseweb="popover"] li, div[data-baseweb="menu"] *{{color:#1f2937!import
   width:1.45rem!important;height:1.45rem!important;}}
 [data-testid="stSidebarCollapsedControl"]::after{{content:"Open filters";color:#ffffff;font-weight:700;
   font-size:13px;margin-left:7px;white-space:nowrap;}}
+[data-testid="stSidebarCollapseButton"]{{display:none!important;}}
+section[data-testid="stSidebar"]{{min-width:18rem!important;}}
 section[data-testid="stSidebar"] .block-container{{padding-top:1.2rem;}}
 .stDataFrame{{border:1px solid {BORDER};border-radius:10px;}}
 h2,h3{{letter-spacing:.2px;font-weight:700;color:{INK};}}
