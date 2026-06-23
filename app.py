@@ -80,6 +80,8 @@ div[data-baseweb="popover"] li, div[data-baseweb="menu"] *{{color:#1f2937!import
   font-size:13px;margin-left:7px;white-space:nowrap;}}
 section[data-testid="stSidebar"]{{min-width:18rem!important;}}
 section[data-testid="stSidebar"] .block-container{{padding-top:1.2rem;}}
+[data-testid="stMainBlockContainer"], section[data-testid="stMain"] .block-container{{
+  max-width:100%!important;padding-top:1.1rem!important;}}
 .stDataFrame{{border:1px solid {BORDER};border-radius:10px;}}
 h2,h3{{letter-spacing:.2px;font-weight:700;color:{INK};}}
 .cap{{color:{MUTE};font-size:12.5px;margin:-4px 0 10px;}}
