@@ -65,14 +65,18 @@ section[data-testid="stSidebar"] div[data-baseweb="select"] *{{color:#1f2937!imp
 section[data-testid="stSidebar"] [data-testid="stTooltipIcon"] svg,
 section[data-testid="stSidebar"] label svg{{fill:#9fb2cf!important;color:#9fb2cf!important;}}
 div[data-baseweb="popover"] li, div[data-baseweb="menu"] *{{color:#1f2937!important;}}
-[data-testid="stSidebarCollapsedControl"]{{display:flex!important;visibility:visible!important;
-  opacity:1!important;align-items:center!important;z-index:1000000!important;background:#2563eb!important;
-  border-radius:10px!important;padding:5px 12px!important;cursor:pointer!important;
-  box-shadow:0 3px 12px rgba(2,12,30,.40)!important;}}
-[data-testid="stSidebarCollapsedControl"]:hover{{background:#1d4ed8!important;}}
-[data-testid="stSidebarCollapsedControl"] svg{{fill:#ffffff!important;color:#ffffff!important;
-  width:1.45rem!important;height:1.45rem!important;}}
-[data-testid="stSidebarCollapsedControl"]::after{{content:"Open filters";color:#ffffff;font-weight:700;
+[data-testid="stSidebarCollapsedControl"], [data-testid="collapsedControl"],
+[data-testid="stExpandSidebarButton"]{{display:flex!important;visibility:visible!important;opacity:1!important;
+  align-items:center!important;position:fixed!important;top:8px!important;left:8px!important;
+  z-index:2147483647!important;background:#2563eb!important;border-radius:10px!important;
+  padding:6px 12px!important;cursor:pointer!important;box-shadow:0 4px 14px rgba(2,12,30,.5)!important;}}
+[data-testid="stSidebarCollapsedControl"]:hover, [data-testid="collapsedControl"]:hover,
+[data-testid="stExpandSidebarButton"]:hover{{background:#1d4ed8!important;}}
+[data-testid="stSidebarCollapsedControl"] svg, [data-testid="collapsedControl"] svg,
+[data-testid="stExpandSidebarButton"] svg{{fill:#ffffff!important;color:#ffffff!important;
+  width:1.5rem!important;height:1.5rem!important;}}
+[data-testid="stSidebarCollapsedControl"]::after, [data-testid="collapsedControl"]::after,
+[data-testid="stExpandSidebarButton"]::after{{content:"Open filters";color:#ffffff;font-weight:700;
   font-size:13px;margin-left:7px;white-space:nowrap;}}
 section[data-testid="stSidebar"]{{min-width:18rem!important;}}
 section[data-testid="stSidebar"] .block-container{{padding-top:1.2rem;}}
